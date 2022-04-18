@@ -4,6 +4,12 @@
 
 -   xxx xxx xxxxxx xxxxxxxx
 
+## [2022.04.18.1]
+
+### Fixed
+
+-   Правка конфига .gitignore
+
 ## [2022.04.18.0]
 
 ### Fixed
