@@ -2,11 +2,12 @@
     "root": true,
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaVersion": 2021,
+        "ecmaVersion": "latest",
         "sourceType": "module",
         "ecmaFeatures": {
             "jsx": true
-        }
+        },
+        "project": "./tsconfig.json"
     },
     "env": {
         "browser": true,
@@ -46,7 +47,7 @@
                     "pascalCase": true,
                     "kebabCase": true
                 },
-                "ignore": ["*.env", "*.d.ts"]
+                "ignore": ["/^[A-Za-z].env$/", "/^[A-Za-z].d.ts$/"]
             }
         ]
     }
