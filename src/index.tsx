@@ -1,4 +1,5 @@
 import './assets/scss/styles.scss';
+import './models/init';
 
 import { createRoot } from 'react-dom/client';
 
